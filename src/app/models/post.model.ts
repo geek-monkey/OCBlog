@@ -11,11 +11,4 @@ export class Post {
         this.created_at = new Date;
     }
 
-    postLoved() {
-        this.loveIts++;
-    }
-
-    postNotLoved() {
-        this.loveIts--;
-    }
 }
